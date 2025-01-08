@@ -1,0 +1,13 @@
+prefix=c:/Users/dell/python_basics/.conda/Library
+exec_prefix=c:/Users/dell/python_basics/.conda/Library
+libdir=c:/Users/dell/python_basics/.conda/Library/lib
+sharedlibdir=c:/Users/dell/python_basics/.conda/Library/lib
+includedir=c:/Users/dell/python_basics/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
